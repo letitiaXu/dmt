@@ -410,11 +410,7 @@ p(x)是事件出现的概率
 ### VQ(Vector Quantization)
 + 一维 -> 区间
 
-
-
 + 二维 -> 面积
-
-
 
 
 
@@ -441,12 +437,16 @@ p(x)是事件出现的概率
 
 ### 运动估计
 基本思想是将图像序列的每一帧分成许多互不重叠的宏块，并认为宏块内所有象素的位移量都相同，然后对每个宏块到参考帧某一给定特定搜索范围内根据一定的匹配准则找出与当前块最相似的块
+
 **搜索算法：**
+
 + 对数搜索
 + 分层搜索
 
 常用准则：MAD平均绝对误差 
 
-Intra frames：I帧，关键帧，帧内编码
-Predicted frames frame：P帧，预测帧
-Bi-directional predicted frames：B帧，双向预测帧
+**Intra frames**：I帧，关键帧，帧内编码
+
+**Predicted frames frame**：P帧，预测帧
+
+**Bi-directional predicted frames**：B帧，双向预测帧
